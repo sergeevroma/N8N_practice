@@ -7,7 +7,7 @@ def discount_price(price, percent):
 
 
 def can_buy(stock, requested):
-    return requested <= stock
+    return requested < stock
 
 
 def average_rating(ratings):
