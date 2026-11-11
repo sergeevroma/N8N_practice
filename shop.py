@@ -3,7 +3,7 @@ def total_price(prices):
 
 
 def discount_price(price, percent):
-    return price * (1 - percent / 100)
+    return price * (1 + percent / 100) 
 
 
 def can_buy(stock, requested):
